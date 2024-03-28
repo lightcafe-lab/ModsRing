@@ -4,7 +4,7 @@ ModsRingは**smdMod**を使用したモジュール式のスマートリング�
 LIGHTCAFE LAB ModsRing 作品ページ<br>
 https://lab.lightcafe.co.jp/work/modsring<br>
 LIGHTCAFE LAB smdMod 作品ページ<br>
-https://lab.lightcafe.co.jp/work/smdMod<br>
+https://lab.lightcafe.co.jp/work/smdmod<br>
 
 ![MODSRING](image/ModsRingThumbnail.png)
 ## firmware
