@@ -1,0 +1,6 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+CN1,USB-C_PCBPLUG,1,CON_USB-CPCBPLUG,
+J1,pad_1x04_P1.27mm_usbc,1,Conn_01x04,
+J2,pad_1x04_P1.27mm_usbc_with_hole,1,Conn_01x04,
+PL1,0603,1,0ZCM0003FF2G,
+"R3, R4",0402,2,5.1k,

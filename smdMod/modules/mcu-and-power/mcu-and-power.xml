@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\lc\kicad\pcb-kicad-lc-library\projects\204-pcb-wearable\204-pcb-wearable-v2-mcu-power-usbc\204-pcb-wearable-v2-mcu-power.kicad_sch</source>
+    <date>2023/08/07 16:04:09</date>
+    <tool>Eeschema (6.0.10)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>204-pcb-wearable-v2-mcu-power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>204-pcb-wearable:C_0402_1005Metric_nosilk</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37abbf4d-d45c-471b-9adb-f0a650f451b4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>204-pcb-wearable:C_0201_0603Metric_nosilk</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37fb1086-031d-4bcc-85a0-5a2254ea1593</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <footprint>204-pcb-wearable:C_0201_0603Metric_nosilk</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25ab0857-6155-421b-84d8-2dd8cce04b55</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>204-pcb-wearable:C_0201_0603Metric_nosilk</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>853e89ec-32fc-468e-972f-4a89450cd48c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2.2uF</value>
+      <footprint>204-pcb-wearable:C_0201_0603Metric_nosilk</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d6dc763-e820-442d-bb3e-1a5580589a2c</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <footprint>204-pcb-wearable:C_0201_0603Metric_nosilk</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a50b78e-9b42-4f60-ad73-a5266b14f70b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>NSR05T40XV2</value>
+      <footprint>204-pcb-wearable:NSR05T40XV2</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <libsource lib="204-pcb-wearable" part="NSR05T40XV2" description="20V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b891b63a-957f-4025-8f85-35f2d00930e5</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>MAX17048G</value>
+      <footprint>204-pcb-wearable:MAX17048G-L</footprint>
+      <libsource lib="204-pcb-wearable" part="MAX17048G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d31b9ea-a6e9-4ad9-a73a-a1b7dc99b528</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MCP73832-2ACI-MC</value>
+      <footprint>204-pcb-wearable:MCP73832-2ACIMC</footprint>
+      <libsource lib="204-pcb-wearable" part="MCP73832-2ACI-MC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dffae2c-4830-465c-a624-a14875b46811</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>MIC5514-3.3YMT-TR</value>
+      <footprint>204-pcb-wearable:MIC5514-3.3YMT-TR</footprint>
+      <libsource lib="204-pcb-wearable" part="MIC5514-3.3YMT-TR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f2b0a78-46f8-494d-8f00-e3aff03262ad</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>ISP1807-LR-RS</value>
+      <footprint>204-pcb-wearable:ISP1807-LR-RS</footprint>
+      <libsource lib="204-pcb-wearable" part="ISP1807-LR-RS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41c5bc61-5d90-4965-8a05-437e4feb3d6a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>204-pcb-wearable:1×02_pinhead_smd</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>beee79d1-2271-476c-b622-b13300a8f1aa</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>if_8080</value>
+      <footprint>204-pcb-wearable:if-8080-10pin-castle-v1</footprint>
+      <libsource lib="204-pcb-wearable" part="if_8080" description="Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4523a0e-8636-4e42-b8e9-6217d088df83</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>if_8080</value>
+      <footprint>204-pcb-wearable:if-8080-10pin-castle-v1</footprint>
+      <libsource lib="204-pcb-wearable" part="if_8080" description="Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ebc7949-2e7f-4168-bb0d-e74b6fbfe5d8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>bga_foot_8*8_1mm_pitch</value>
+      <footprint>204-pcb-wearable:if-8080-mcu-v1</footprint>
+      <libsource lib="204-pcb-wearable" part="bga_foot_8*8_1mm_pitch" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ba77444-9dc7-4775-8e46-72f09d8c6f57</tstamps>
+    </comp>
+    <comp ref="PL1">
+      <value>0ZCM0003FF2G</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="204-pcb-wearable" part="0ZCM0003FF2G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be2d0e24-4f18-4010-b787-e43111f2ee38</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PMOS_GSD</value>
+      <footprint>204-pcb-wearable:SSM3j36FS</footprint>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36c3bb86-e9fe-47d8-9e84-441a3b31f8cc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>204-pcb-wearable:R_0402_1005Metric_nosilk</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba1e6940-fff0-4f15-be2a-61cf8ba2f114</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>204-pcb-wearable:R_0402_1005Metric_nosilk</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ff9044-768e-4a2f-bc8a-12e821ee146c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>18k</value>
+      <footprint>204-pcb-wearable:R_0201_0603Metric_nosilk</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23e34a4e-b499-4ca5-8dad-b477144a9099</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>204-pcb-wearable:R_0201_0603Metric_nosilk</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="204-pcb-wearable-v2-mcu-power.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05210be2-d5db-464c-b0c6-9232105a7706</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="204-pcb-wearable" part="0ZCM0003FF2G">
+      <fields>
+        <field name="Reference">PL</field>
+        <field name="Value">0ZCM0003FF2G</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="204-pcb-wearable" part="ISP1807-LR-RS">
+      <footprints>
+        <fp>ISP1807-LR-RS</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ISP1807-LR-RS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_out"/>
+        <pin num="2" name="P0_09_NFC1" type="bidirectional"/>
+        <pin num="3" name="P0_12_TRACEDATA1" type="bidirectional"/>
+        <pin num="4" name="P0_10_NFC2" type="bidirectional"/>
+        <pin num="5" name="P0_14" type="bidirectional"/>
+        <pin num="6" name="P0_26" type="bidirectional"/>
+        <pin num="7" name="VSS" type="power_out"/>
+        <pin num="8" name="D+" type="bidirectional"/>
+        <pin num="9" name="P0_16" type="bidirectional"/>
+        <pin num="10" name="D-" type="bidirectional"/>
+        <pin num="11" name="P0_21" type="bidirectional"/>
+        <pin num="12" name="VBUS" type="power_in"/>
+        <pin num="13" name="P0_18_RESET" type="bidirectional"/>
+        <pin num="14" name="VSS" type="power_out"/>
+        <pin num="15" name="P0_20" type="bidirectional"/>
+        <pin num="16" name="VSS" type="power_out"/>
+        <pin num="17" name="P0_22" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_out"/>
+        <pin num="19" name="P0_24" type="bidirectional"/>
+        <pin num="20" name="OUT_ANT" type="bidirectional"/>
+        <pin num="21" name="VSS" type="power_out"/>
+        <pin num="22" name="OUT_MOD" type="bidirectional"/>
+        <pin num="23" name="VSS" type="power_out"/>
+        <pin num="24" name="VSS" type="power_out"/>
+        <pin num="25" name="VSS" type="power_out"/>
+        <pin num="26" name="VCC_NRF" type="power_in"/>
+        <pin num="27" name="P0_17" type="bidirectional"/>
+        <pin num="28" name="SWDIO" type="bidirectional"/>
+        <pin num="29" name="P0_13" type="bidirectional"/>
+        <pin num="30" name="SWDCLK" type="input"/>
+        <pin num="31" name="VSS" type="power_out"/>
+        <pin num="32" name="P0_08" type="bidirectional"/>
+        <pin num="33" name="P0_07_TRACECLK" type="bidirectional"/>
+        <pin num="34" name="P0_06" type="bidirectional"/>
+        <pin num="35" name="P0_04_AIN2" type="input"/>
+        <pin num="36" name="P0_05_AIN3" type="input"/>
+        <pin num="37" name="P0_15" type="bidirectional"/>
+        <pin num="38" name="P0_03_AIN1" type="input"/>
+        <pin num="39" name="P0_27" type="bidirectional"/>
+        <pin num="40" name="P0_02_AIN0" type="bidirectional"/>
+        <pin num="41" name="P0_25" type="bidirectional"/>
+        <pin num="42" name="P0_31_AIN7" type="input"/>
+        <pin num="43" name="P0_11_TRACEDATA" type="bidirectional"/>
+        <pin num="44" name="P0_30_AIN6" type="input"/>
+        <pin num="45" name="P0_19" type="bidirectional"/>
+        <pin num="46" name="P0_29_AIN5" type="input"/>
+        <pin num="47" name="P0_23" type="bidirectional"/>
+        <pin num="48" name="P0_28_AIN4" type="input"/>
+        <pin num="49" name="P1_02" type="bidirectional"/>
+        <pin num="50" name="P1_06" type="bidirectional"/>
+        <pin num="51" name="P1_15" type="bidirectional"/>
+        <pin num="52" name="P1_14" type="bidirectional"/>
+        <pin num="53" name="P1_13" type="bidirectional"/>
+        <pin num="54" name="P1_05" type="bidirectional"/>
+        <pin num="55" name="P1_08" type="bidirectional"/>
+        <pin num="56" name="P1_09_TRACE3" type="bidirectional"/>
+        <pin num="57" name="P1_00_TRACE0" type="bidirectional"/>
+        <pin num="58" name="P1_03" type="bidirectional"/>
+        <pin num="59" name="P1_12" type="bidirectional"/>
+        <pin num="60" name="P1_10" type="bidirectional"/>
+        <pin num="61" name="P1_11" type="bidirectional"/>
+        <pin num="62" name="P1_07" type="bidirectional"/>
+        <pin num="63" name="P1_04" type="bidirectional"/>
+        <pin num="64" name="P1_01" type="bidirectional"/>
+        <pin num="65" name="NC" type="no_connect"/>
+        <pin num="66" name="NC" type="no_connect"/>
+        <pin num="67" name="NC" type="no_connect"/>
+        <pin num="68" name="NC" type="no_connect"/>
+        <pin num="69" name="NC" type="no_connect"/>
+        <pin num="70" name="NC" type="no_connect"/>
+        <pin num="71" name="NC" type="no_connect"/>
+        <pin num="72" name="NC" type="no_connect"/>
+        <pin num="73" name="NC" type="no_connect"/>
+        <pin num="74" name="NC" type="no_connect"/>
+        <pin num="75" name="NC" type="no_connect"/>
+        <pin num="76" name="NC" type="no_connect"/>
+        <pin num="77" name="NC" type="no_connect"/>
+        <pin num="78" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="204-pcb-wearable" part="MAX17048G">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX17048G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTG" type="passive"/>
+        <pin num="2" name="CELL" type="power_in"/>
+        <pin num="3" name="Vdd" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="ALRT" type="passive"/>
+        <pin num="6" name="QSTRT" type="power_in"/>
+        <pin num="7" name="SCL" type="passive"/>
+        <pin num="8" name="SDA" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="204-pcb-wearable" part="MCP73832-2ACI-MC">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP73832-2ACI-MC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VBAT" type="power_in"/>
+        <pin num="5" name="STAT" type="passive"/>
+        <pin num="6" name="Vss" type="power_in"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="PROG" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="204-pcb-wearable" part="MIC5514-3.3YMT-TR">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MIC5514-3.3YMT-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="204-pcb-wearable" part="NSR05T40XV2">
+      <description>20V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88526/1n5820.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">NSR05T40XV2</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88526/1n5820.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="204-pcb-wearable" part="bga_foot_8*8_1mm_pitch">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">bga_foot_8*8_1mm_pitch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="Pin_A1" type="passive"/>
+        <pin num="A2" name="Pin_A2" type="passive"/>
+        <pin num="A3" name="Pin_A3" type="passive"/>
+        <pin num="A4" name="Pin_A4" type="passive"/>
+        <pin num="A5" name="Pin_A5" type="passive"/>
+        <pin num="A6" name="Pin_A6" type="passive"/>
+        <pin num="A7" name="Pin_A7" type="passive"/>
+        <pin num="A8" name="Pin_A8" type="passive"/>
+        <pin num="B1" name="Pin_B1" type="passive"/>
+        <pin num="B2" name="Pin_B2" type="passive"/>
+        <pin num="B3" name="Pin_B3" type="passive"/>
+        <pin num="B4" name="Pin_B4" type="passive"/>
+        <pin num="B5" name="Pin_B5" type="passive"/>
+        <pin num="B6" name="Pin_B6" type="passive"/>
+        <pin num="B7" name="Pin_B7" type="passive"/>
+        <pin num="B8" name="Pin_B8" type="passive"/>
+        <pin num="C1" name="Pin_C1" type="passive"/>
+        <pin num="C2" name="Pin_C2" type="passive"/>
+        <pin num="C3" name="Pin_C3" type="passive"/>
+        <pin num="C4" name="Pin_C4" type="passive"/>
+        <pin num="C5" name="Pin_C5" type="passive"/>
+        <pin num="C6" name="Pin_C6" type="passive"/>
+        <pin num="C7" name="Pin_C7" type="passive"/>
+        <pin num="C8" name="Pin_C8" type="passive"/>
+        <pin num="D1" name="Pin_D1" type="passive"/>
+        <pin num="D2" name="Pin_D2" type="passive"/>
+        <pin num="D3" name="Pin_D3" type="passive"/>
+        <pin num="D4" name="Pin_D4" type="passive"/>
+        <pin num="D5" name="Pin_D5" type="passive"/>
+        <pin num="D6" name="Pin_D6" type="passive"/>
+        <pin num="D7" name="Pin_D7" type="passive"/>
+        <pin num="D8" name="Pin_D8" type="passive"/>
+        <pin num="NC1" name="NC1" type="no_connect"/>
+        <pin num="NC2" name="NC2" type="no_connect"/>
+        <pin num="NC3" name="NC3" type="no_connect"/>
+        <pin num="NC4" name="NC4" type="no_connect"/>
+        <pin num="NC5" name="NC5" type="no_connect"/>
+        <pin num="NC6" name="NC6" type="no_connect"/>
+        <pin num="NC7" name="NC7" type="no_connect"/>
+        <pin num="NC8" name="NC8" type="no_connect"/>
+        <pin num="NC9" name="NC9" type="no_connect"/>
+        <pin num="NC10" name="NC10" type="no_connect"/>
+        <pin num="NC11" name="NC11" type="no_connect"/>
+        <pin num="NC12" name="NC12" type="no_connect"/>
+        <pin num="NC13" name="NC13" type="no_connect"/>
+        <pin num="NC14" name="NC14" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="204-pcb-wearable" part="if_8080">
+      <description>Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">if_8080</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="204-pcb-wearable">
+      <uri>C:/lc/kicad/pcb-kicad-lc-library/symbols/204-pcb-wearable.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\lc\kicad\symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\lc\kicad\symbols/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="4" name="/3V3_A">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/3V3_B">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="6" name="/BAT_A">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="PL1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/BAT_B">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="IC2" pin="4" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="/D+">
+      <node ref="IC4" pin="8" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J4" pin="D2" pinfunction="Pin_D2" pintype="passive"/>
+    </net>
+    <net code="9" name="/D-">
+      <node ref="IC4" pin="10" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J4" pin="D3" pinfunction="Pin_D3" pintype="passive"/>
+    </net>
+    <net code="10" name="/EXT_4RST">
+      <node ref="IC4" pin="13" pinfunction="P0_18_RESET" pintype="bidirectional"/>
+      <node ref="J4" pin="C3" pinfunction="Pin_C3" pintype="passive"/>
+    </net>
+    <net code="11" name="/IO_0">
+      <node ref="IC4" pin="48" pinfunction="P0_28_AIN4" pintype="input"/>
+      <node ref="J4" pin="A1" pinfunction="Pin_A1" pintype="passive"/>
+    </net>
+    <net code="12" name="/IO_1">
+      <node ref="IC4" pin="61" pinfunction="P1_11" pintype="bidirectional"/>
+      <node ref="J4" pin="C4" pinfunction="Pin_C4" pintype="passive"/>
+    </net>
+    <net code="13" name="/IO_2">
+      <node ref="IC4" pin="53" pinfunction="P1_13" pintype="bidirectional"/>
+      <node ref="J4" pin="B4" pinfunction="Pin_B4" pintype="passive"/>
+    </net>
+    <net code="14" name="/IO_3">
+      <node ref="IC4" pin="42" pinfunction="P0_31_AIN7" pintype="input"/>
+      <node ref="J4" pin="A4" pinfunction="Pin_A4" pintype="passive"/>
+    </net>
+    <net code="15" name="/IO_4">
+      <node ref="IC4" pin="19" pinfunction="P0_24" pintype="bidirectional"/>
+      <node ref="J4" pin="D6" pinfunction="Pin_D6" pintype="passive"/>
+    </net>
+    <net code="16" name="/IO_5">
+      <node ref="IC4" pin="60" pinfunction="P1_10" pintype="bidirectional"/>
+      <node ref="J4" pin="C5" pinfunction="Pin_C5" pintype="passive"/>
+    </net>
+    <net code="17" name="/IO_6">
+      <node ref="IC4" pin="52" pinfunction="P1_14" pintype="bidirectional"/>
+      <node ref="J4" pin="B5" pinfunction="Pin_B5" pintype="passive"/>
+    </net>
+    <net code="18" name="/IO_7">
+      <node ref="IC4" pin="38" pinfunction="P0_03_AIN1" pintype="input"/>
+      <node ref="J4" pin="A5" pinfunction="Pin_A5" pintype="passive"/>
+    </net>
+    <net code="19" name="/LIPO_IN">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="CELL" pintype="power_in"/>
+      <node ref="IC1" pin="3" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="PL1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/NFC1">
+      <node ref="IC4" pin="2" pinfunction="P0_09_NFC1" pintype="bidirectional"/>
+      <node ref="J4" pin="B1" pinfunction="Pin_B1" pintype="passive"/>
+    </net>
+    <net code="21" name="/NFC2">
+      <node ref="IC4" pin="4" pinfunction="P0_10_NFC2" pintype="bidirectional"/>
+      <node ref="J4" pin="C1" pinfunction="Pin_C1" pintype="passive"/>
+    </net>
+    <net code="22" name="/SCL">
+      <node ref="IC1" pin="7" pinfunction="SCL" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/SDA">
+      <node ref="IC1" pin="8" pinfunction="SDA" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/STAT">
+      <node ref="IC4" pin="64" pinfunction="P1_01" pintype="bidirectional"/>
+      <node ref="J4" pin="C2" pinfunction="Pin_C2" pintype="passive"/>
+    </net>
+    <net code="25" name="/STAT_B">
+      <node ref="IC2" pin="5" pinfunction="STAT" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="26" name="/SWDCLK">
+      <node ref="IC4" pin="30" pinfunction="SWDCLK" pintype="input"/>
+      <node ref="J4" pin="A8" pinfunction="Pin_A8" pintype="passive"/>
+    </net>
+    <net code="27" name="/SWDIO">
+      <node ref="IC4" pin="28" pinfunction="SWDIO" pintype="bidirectional"/>
+      <node ref="J4" pin="B8" pinfunction="Pin_B8" pintype="passive"/>
+    </net>
+    <net code="28" name="/USB5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="IC4" pin="1" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="14" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="16" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="18" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="21" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="23" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="24" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="25" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="31" pinfunction="VSS" pintype="power_out"/>
+      <node ref="IC4" pin="7" pinfunction="VSS" pintype="power_out"/>
+      <node ref="J4" pin="D1" pinfunction="Pin_D1" pintype="passive"/>
+      <node ref="J4" pin="D5" pinfunction="Pin_D5" pintype="passive"/>
+      <node ref="J4" pin="D7" pinfunction="Pin_D7" pintype="passive"/>
+      <node ref="J4" pin="D8" pinfunction="Pin_D8" pintype="passive"/>
+    </net>
+    <net code="30" name="GNDA">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="CTG" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC1" pin="6" pinfunction="QSTRT" pintype="power_in"/>
+      <node ref="IC1" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="31" name="GNDB">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="Vss" pintype="power_in"/>
+      <node ref="IC2" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="IC3" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="7" pinfunction="EP" pintype="power_in"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC3" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="IC3" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8" pinfunction="PROG" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(IC4-Pad20)">
+      <node ref="IC4" pin="20" pinfunction="OUT_ANT" pintype="bidirectional"/>
+      <node ref="IC4" pin="22" pinfunction="OUT_MOD" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="VBUS">
+      <node ref="IC4" pin="12" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J4" pin="D4" pinfunction="Pin_D4" pintype="passive"/>
+    </net>
+    <net code="36" name="VCC">
+      <node ref="IC4" pin="26" pinfunction="VCC_NRF" pintype="power_in"/>
+      <node ref="J4" pin="C8" pinfunction="Pin_C8" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="ALRT" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(IC2-Pad7)">
+      <node ref="IC2" pin="7" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(IC3-Pad2)">
+      <node ref="IC3" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(IC3-Pad5)">
+      <node ref="IC3" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(IC4-Pad3)">
+      <node ref="IC4" pin="3" pinfunction="P0_12_TRACEDATA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(IC4-Pad5)">
+      <node ref="IC4" pin="5" pinfunction="P0_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(IC4-Pad6)">
+      <node ref="IC4" pin="6" pinfunction="P0_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(IC4-Pad9)">
+      <node ref="IC4" pin="9" pinfunction="P0_16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(IC4-Pad11)">
+      <node ref="IC4" pin="11" pinfunction="P0_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(IC4-Pad15)">
+      <node ref="IC4" pin="15" pinfunction="P0_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(IC4-Pad17)">
+      <node ref="IC4" pin="17" pinfunction="P0_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(IC4-Pad27)">
+      <node ref="IC4" pin="27" pinfunction="P0_17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(IC4-Pad29)">
+      <node ref="IC4" pin="29" pinfunction="P0_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(IC4-Pad32)">
+      <node ref="IC4" pin="32" pinfunction="P0_08" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(IC4-Pad33)">
+      <node ref="IC4" pin="33" pinfunction="P0_07_TRACECLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(IC4-Pad34)">
+      <node ref="IC4" pin="34" pinfunction="P0_06" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(IC4-Pad35)">
+      <node ref="IC4" pin="35" pinfunction="P0_04_AIN2" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(IC4-Pad36)">
+      <node ref="IC4" pin="36" pinfunction="P0_05_AIN3" pintype="input+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(IC4-Pad37)">
+      <node ref="IC4" pin="37" pinfunction="P0_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(IC4-Pad39)">
+      <node ref="IC4" pin="39" pinfunction="P0_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(IC4-Pad40)">
+      <node ref="IC4" pin="40" pinfunction="P0_02_AIN0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(IC4-Pad41)">
+      <node ref="IC4" pin="41" pinfunction="P0_25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(IC4-Pad43)">
+      <node ref="IC4" pin="43" pinfunction="P0_11_TRACEDATA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(IC4-Pad44)">
+      <node ref="IC4" pin="44" pinfunction="P0_30_AIN6" pintype="input+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(IC4-Pad45)">
+      <node ref="IC4" pin="45" pinfunction="P0_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(IC4-Pad46)">
+      <node ref="IC4" pin="46" pinfunction="P0_29_AIN5" pintype="input+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(IC4-Pad47)">
+      <node ref="IC4" pin="47" pinfunction="P0_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(IC4-Pad49)">
+      <node ref="IC4" pin="49" pinfunction="P1_02" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(IC4-Pad50)">
+      <node ref="IC4" pin="50" pinfunction="P1_06" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(IC4-Pad51)">
+      <node ref="IC4" pin="51" pinfunction="P1_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(IC4-Pad54)">
+      <node ref="IC4" pin="54" pinfunction="P1_05" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(IC4-Pad55)">
+      <node ref="IC4" pin="55" pinfunction="P1_08" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(IC4-Pad56)">
+      <node ref="IC4" pin="56" pinfunction="P1_09_TRACE3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(IC4-Pad57)">
+      <node ref="IC4" pin="57" pinfunction="P1_00_TRACE0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(IC4-Pad58)">
+      <node ref="IC4" pin="58" pinfunction="P1_03" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(IC4-Pad59)">
+      <node ref="IC4" pin="59" pinfunction="P1_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(IC4-Pad62)">
+      <node ref="IC4" pin="62" pinfunction="P1_07" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(IC4-Pad63)">
+      <node ref="IC4" pin="63" pinfunction="P1_04" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(IC4-Pad65)">
+      <node ref="IC4" pin="65" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(IC4-Pad66)">
+      <node ref="IC4" pin="66" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(IC4-Pad67)">
+      <node ref="IC4" pin="67" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(IC4-Pad68)">
+      <node ref="IC4" pin="68" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(IC4-Pad69)">
+      <node ref="IC4" pin="69" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(IC4-Pad70)">
+      <node ref="IC4" pin="70" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(IC4-Pad71)">
+      <node ref="IC4" pin="71" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(IC4-Pad72)">
+      <node ref="IC4" pin="72" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(IC4-Pad73)">
+      <node ref="IC4" pin="73" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(IC4-Pad74)">
+      <node ref="IC4" pin="74" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(IC4-Pad75)">
+      <node ref="IC4" pin="75" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(IC4-Pad76)">
+      <node ref="IC4" pin="76" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(IC4-Pad77)">
+      <node ref="IC4" pin="77" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(IC4-Pad78)">
+      <node ref="IC4" pin="78" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J3-Pad8)">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J3-Pad9)">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J4-PadA2)">
+      <node ref="J4" pin="A2" pinfunction="Pin_A2" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J4-PadA3)">
+      <node ref="J4" pin="A3" pinfunction="Pin_A3" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J4-PadA6)">
+      <node ref="J4" pin="A6" pinfunction="Pin_A6" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J4-PadA7)">
+      <node ref="J4" pin="A7" pinfunction="Pin_A7" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J4-PadB2)">
+      <node ref="J4" pin="B2" pinfunction="Pin_B2" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J4-PadB3)">
+      <node ref="J4" pin="B3" pinfunction="Pin_B3" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J4-PadB6)">
+      <node ref="J4" pin="B6" pinfunction="Pin_B6" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J4-PadB7)">
+      <node ref="J4" pin="B7" pinfunction="Pin_B7" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J4-PadC6)">
+      <node ref="J4" pin="C6" pinfunction="Pin_C6" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J4-PadC7)">
+      <node ref="J4" pin="C7" pinfunction="Pin_C7" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J4-PadNC1)">
+      <node ref="J4" pin="NC1" pinfunction="NC1" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J4-PadNC2)">
+      <node ref="J4" pin="NC2" pinfunction="NC2" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J4-PadNC3)">
+      <node ref="J4" pin="NC3" pinfunction="NC3" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J4-PadNC4)">
+      <node ref="J4" pin="NC4" pinfunction="NC4" pintype="no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J4-PadNC5)">
+      <node ref="J4" pin="NC5" pinfunction="NC5" pintype="no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J4-PadNC6)">
+      <node ref="J4" pin="NC6" pinfunction="NC6" pintype="no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J4-PadNC7)">
+      <node ref="J4" pin="NC7" pinfunction="NC7" pintype="no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J4-PadNC8)">
+      <node ref="J4" pin="NC8" pinfunction="NC8" pintype="no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J4-PadNC9)">
+      <node ref="J4" pin="NC9" pinfunction="NC9" pintype="no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J4-PadNC10)">
+      <node ref="J4" pin="NC10" pinfunction="NC10" pintype="no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J4-PadNC11)">
+      <node ref="J4" pin="NC11" pinfunction="NC11" pintype="no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J4-PadNC12)">
+      <node ref="J4" pin="NC12" pinfunction="NC12" pintype="no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J4-PadNC13)">
+      <node ref="J4" pin="NC13" pinfunction="NC13" pintype="no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J4-PadNC14)">
+      <node ref="J4" pin="NC14" pinfunction="NC14" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

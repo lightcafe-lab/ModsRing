@@ -1,0 +1,7 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+J1,if-8080-mcu-v1-for-board,1,bga_foot_8*8_1mm_pitch,
+J2,pad_1x04_P1.27mm_usbc_mount,1,Conn_01x05,
+J3,pad_1x04_P1.27mm,1,Conn_01x04,
+"J4, J5",if-8080-10pin-mount-free-pin,2,if_8080,
+"J6, J7",if-8080-10pin-mount-HAT,2,if_8080,
+J8,pad_1x02_P1.27mm,1,Conn_01x02,
